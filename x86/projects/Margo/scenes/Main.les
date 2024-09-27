@@ -1,0 +1,57 @@
+{
+	"name":	"Main",
+	"objects":	[{
+			"name":	"bg",
+			"position":	["0", "0"],
+			"size":	["1280", "768"],
+			"textures":	[
+				["textures/bg.png", "rgba_f:1,1,1,1"]
+			],
+			"num":	0
+		},{
+			"name":	"girl1",
+			"position":	["400", "200"],
+			"size":	["350", "650"],
+			"textures":	[
+				["textures/girl1.png", "rgba_f:1,1,1,1"]
+			],
+			"num":	0
+		},{
+			"name":	"girl2",
+			"position":	["750", "200"],
+			"size":	["400", "650"],
+			"textures":	[
+				["textures/girl2.png", "rgba_f:1,1,1,1"]
+			],
+			"num":	1
+		},{
+			"name":	"girl3",
+			"position":	["80", "-250"],
+			"size":	["400", "650"],
+			"textures":	[
+				["textures/girl3.png", "rgba_f:1,1,1,1"]
+			],
+			"num":	1
+		},{
+			"name":	"choosePanel",
+			"position":	["4650", "1880"],
+			"size":	["350", "306"],
+			"textures":	[
+				["textures/choosePanel.png", "rgba_f:1,1,1,1"]
+			],
+			"num":	1
+		}],
+	"windows":	[{
+			"name":	"window1",
+			"position":	["0", "0"],
+			"size":	["200", "200"],
+			"childs":	[],
+			"num":	0
+		},{
+			"name":	"window2",
+			"position":	["200", "200"],
+			"size":	["200", "200"],
+			"childs":	[],
+			"num":	1
+		}]
+}

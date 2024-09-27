@@ -1,0 +1,4 @@
+-- Import file
+name = "Castle.png"
+type = "texture"
+import = "textures\\Castle.png"

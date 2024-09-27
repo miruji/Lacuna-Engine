@@ -1,0 +1,4 @@
+-- Import file
+name = "Main.lua"
+type = "scene script"
+import = "scenes\\Main.lua"

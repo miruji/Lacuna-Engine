@@ -1,0 +1,4 @@
+-- Import file
+name = "Bracket.png"
+type = "texture"
+import = "textures\\Bracket.png"

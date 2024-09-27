@@ -1,0 +1,4 @@
+-- Import file
+name = "Object.lua"
+type = "object"
+import = "objects\\Object.lua"

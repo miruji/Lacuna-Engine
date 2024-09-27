@@ -1,0 +1,4 @@
+-- Import file
+name = "Camera.lua"
+type = "object"
+import = "objects\\Camera.lua"

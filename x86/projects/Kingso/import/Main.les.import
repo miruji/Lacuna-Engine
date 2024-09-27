@@ -1,0 +1,4 @@
+-- Import file
+name = "Main.les"
+type = "scene"
+import = "scenes\\Main.les"

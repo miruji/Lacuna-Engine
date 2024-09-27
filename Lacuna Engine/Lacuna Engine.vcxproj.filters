@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source\File">
+      <UniqueIdentifier>{28d48688-2997-48ba-96c3-5eb7ed5edf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{8fbfb694-8379-4621-a517-180ec4355df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Func">
+      <UniqueIdentifier>{f2f5a8f2-5290-4e1a-9daa-7a471016efbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Console">
+      <UniqueIdentifier>{d496dc1c-5b97-421c-b444-a70be2fc67f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Graphics">
+      <UniqueIdentifier>{5eeeb2d4-6c40-4ad1-9e49-b0c438cfc27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Graphics\GUI">
+      <UniqueIdentifier>{253ca158-5b68-4f7d-a39b-98891b4e8c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Graphics\GUI\ImGui">
+      <UniqueIdentifier>{583b71b9-94df-44f2-ab23-9cc653f4a82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Editor">
+      <UniqueIdentifier>{0cdfcefc-eeb0-4105-9be6-b749a3f3cb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Game">
+      <UniqueIdentifier>{cacf9813-2c22-4e21-beb1-700e263d27e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Editor\ImageEditor">
+      <UniqueIdentifier>{968225ed-4893-4637-a8ca-98b176dda24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Editor\TextEditor">
+      <UniqueIdentifier>{e0ec5ccd-3668-4f23-bf39-7dabed453b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Editor\NodeEditor">
+      <UniqueIdentifier>{e3b70547-20aa-4db8-abed-467335bf8792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Resources">
+      <UniqueIdentifier>{e0b3d131-90fa-4625-81ff-0929694be9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Lua">
+      <UniqueIdentifier>{64926fe3-4e8c-47ef-ac84-9a610435541a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Graphics\SOIL">
+      <UniqueIdentifier>{6fa275dd-b6a6-4c45-832b-ae4f886329c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Type">
+      <UniqueIdentifier>{553f8faf-1d75-40b1-9e56-4d153525e6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Lua\cJSON">
+      <UniqueIdentifier>{33534aa6-cf88-473b-a985-6b3e297210db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\wideStringConvert.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\splitString.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="File\newDirectory.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\newFile.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\dirExist.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\fileExist.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getRootPath.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\createNewFile.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getFilesList.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Import.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\getRandomNumber.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\cutBackNumber.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\isInt.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getFileName.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\noFileType.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\isChar.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getNameNum.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getFileRoot.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Console\ScriptOutput.cpp">
+      <Filter>Source\Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Console\Log.cpp">
+      <Filter>Source\Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Console\ConsoleTime.cpp">
+      <Filter>Source\Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_canvas.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_demo.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_draw.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_node_editor.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_node_editor_api.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_tables.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_TextEditor.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_widgets.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\crude_json.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getFolderList.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\openFileDialog.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Texture.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\GUI\MenuItemImage.cpp">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\GUI\TreeNodeImage.cpp">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\GUI\HelpMarker.cpp">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\ImageEditor\ImageEditor.cpp">
+      <Filter>Source\Engine\Editor\ImageEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\NodeEditor\NodeEditor.cpp">
+      <Filter>Source\Engine\Editor\NodeEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\TextEditor\TextEditor.cpp">
+      <Filter>Source\Engine\Editor\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game\Scene.cpp">
+      <Filter>Source\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game\Object.cpp">
+      <Filter>Source\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game\Game.cpp">
+      <Filter>Source\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\Editor.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game\Camera.cpp">
+      <Filter>Source\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="File\copyFileTo.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game\SceneManager.cpp">
+      <Filter>Source\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Lua\LuaLoad.cpp">
+      <Filter>Source\Engine\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Lua\State.cpp">
+      <Filter>Source\Engine\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>Source\Engine\Graphics\GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\SOIL\image_DXT.c">
+      <Filter>Source\Engine\Graphics\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\SOIL\image_helper.c">
+      <Filter>Source\Engine\Graphics\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\SOIL\SOIL.c">
+      <Filter>Source\Engine\Graphics\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\SOIL\stb_image_aug.c">
+      <Filter>Source\Engine\Graphics\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\ConvertColor.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\noSpaces.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\toUpperCase.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\toLowerCase.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\octHex.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game\Keyboard.cpp">
+      <Filter>Source\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getFileStrings.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\joinStringVector.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\ShaderManager.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\SettingsManager.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\explorer_delete.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\explorer_showInFolder.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\explorer_rename.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_deleteFile.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_deleteProject.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\explorer_remove.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_projectExist.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_projectList.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_createNewProject.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_fileExist.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_explorerContext.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\popup_explorerAddContext.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Func\replaceAll.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="File\getFileReplaceAll.cpp">
+      <Filter>Source\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\cJSON\cJSON.c">
+      <Filter>Source\Engine\Lua\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\cJSON\cJSON_Utils.c">
+      <Filter>Source\Engine\Lua\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_projectExplorer.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_inspector.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_sceneList.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_log.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_nodeEditor.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_textEditor.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_imageEditor.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Editor\window_sceneView.cpp">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Lua\json.cpp">
+      <Filter>Source\Engine\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\vertex.cpp">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Type\LuaParam.cpp">
+      <Filter>Source\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\convertToImGuiFlags.cpp">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\wideStringConvert.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\splitString.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getRootPath.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\newDirectory.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\newFile.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\dirExist.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\fileExist.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\createNewFile.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getFilesList.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Import.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\getRandomNumber.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\cutBackNumber.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\isInt.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getFileName.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\noFileType.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\isChar.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getNameNum.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getFileRoot.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Console\Log.h">
+      <Filter>Source\Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Console\ScriptOutput.h">
+      <Filter>Source\Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Console\ConsoleTime.h">
+      <Filter>Source\Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Console\ConsoleStyle.h">
+      <Filter>Source\Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Console\Console.h">
+      <Filter>Source\Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getFolderList.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\openFileDialog.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Texture.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GUI\HelpMarker.h">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GUI\MenuItemImage.h">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GUI\TreeNodeImage.h">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GUI\GUI.h">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\ImageEditor\ImageEditor.h">
+      <Filter>Source\Engine\Editor\ImageEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\NodeEditor\NodeEditor.h">
+      <Filter>Source\Engine\Editor\NodeEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\TextEditor\TextEditor.h">
+      <Filter>Source\Engine\Editor\TextEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\Object.h">
+      <Filter>Source\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\Scene.h">
+      <Filter>Source\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\Game.h">
+      <Filter>Source\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\Editor.h">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\Camera.h">
+      <Filter>Source\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="File\copyFileTo.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\SceneManager.h">
+      <Filter>Source\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Lua\State.h">
+      <Filter>Source\Engine\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Lua\LuaLoad.h">
+      <Filter>Source\Engine\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Lua\LuaMacro.h">
+      <Filter>Source\Engine\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\FloatMacro.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\ConvertColor.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\noSpaces.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\toLowerCase.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\toUpperCase.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\octHex.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\Keyboard.h">
+      <Filter>Source\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getFileStrings.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\joinStringVector.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\ShaderManager.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Editor\SettingManager.h">
+      <Filter>Source\Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Func\replaceAll.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="File\getFileReplaceAll.h">
+      <Filter>Source\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\mi.h">
+      <Filter>Source\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Lua\json.h">
+      <Filter>Source\Engine\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\vertex.h">
+      <Filter>Source\Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Type\LuaParam.h">
+      <Filter>Source\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\convertToImGuiFlags.h">
+      <Filter>Source\Engine\Graphics\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lacuna Engine.rc">
+      <Filter>Source\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Release\Lacuna Engine 256x256.ico">
+      <Filter>Source\Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

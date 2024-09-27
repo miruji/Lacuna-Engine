@@ -1,0 +1,6 @@
+-- Lacuna Engine project configuration file
+engine_version = "230626"
+
+project_name         = "Kingso"
+project_architecture = "3"
+project_platform     = "Windows"

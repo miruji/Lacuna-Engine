@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{01dc9493-0122-4f0b-9c7c-17eda7b70e79}</ProjectGuid>
+    <RootNamespace>LacunaEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)$(LibrariesArchitecture)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)$(LibrariesArchitecture)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <ProgramDataBaseFileName />
+      <AdditionalIncludeDirectories>$(SolutionDir)Lacuna Engine\Include\;C:\Users\uncle\Desktop\Lacuna Engine\Lacuna Engine\SFML\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lacuna Engine\Lib\;$(SolutionDir)Lacuna Engine\Lib\$(LibrariesArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua51.lib;luajit.lib;FreeImage.lib;opengl32.lib;glew32.lib;glew32s.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>No</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Lacuna Engine\Include\;C:\Users\uncle\Desktop\Lacuna Engine\Lacuna Engine\SFML\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>lua51.lib;luajit.lib;FreeImage.lib;opengl32.lib;glew32.lib;glew32s.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lacuna Engine\Lib\;$(SolutionDir)Lacuna Engine\Lib\$(LibrariesArchitecture);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Console\ConsoleTime.cpp" />
+    <ClCompile Include="Engine\Console\Log.cpp" />
+    <ClCompile Include="Engine\Console\ScriptOutput.cpp" />
+    <ClCompile Include="Engine\Editor\Editor.cpp" />
+    <ClCompile Include="Engine\Editor\window_projectExplorer.cpp" />
+    <ClCompile Include="Engine\Editor\explorer_delete.cpp" />
+    <ClCompile Include="Engine\Editor\explorer_remove.cpp" />
+    <ClCompile Include="Engine\Editor\explorer_rename.cpp" />
+    <ClCompile Include="Engine\Editor\explorer_showInFolder.cpp" />
+    <ClCompile Include="Engine\Editor\ImageEditor\ImageEditor.cpp" />
+    <ClCompile Include="Engine\Editor\window_imageEditor.cpp" />
+    <ClCompile Include="Engine\Editor\window_inspector.cpp" />
+    <ClCompile Include="Engine\Editor\NodeEditor\NodeEditor.cpp" />
+    <ClCompile Include="Engine\Editor\popup_createNewProject.cpp" />
+    <ClCompile Include="Engine\Editor\popup_deleteFile.cpp" />
+    <ClCompile Include="Engine\Editor\popup_deleteProject.cpp" />
+    <ClCompile Include="Engine\Editor\popup_explorerAddContext.cpp" />
+    <ClCompile Include="Engine\Editor\popup_explorerContext.cpp" />
+    <ClCompile Include="Engine\Editor\popup_fileExist.cpp" />
+    <ClCompile Include="Engine\Editor\popup_projectList.cpp" />
+    <ClCompile Include="Engine\Editor\popup_projectExist.cpp" />
+    <ClCompile Include="Engine\Editor\window_log.cpp" />
+    <ClCompile Include="Engine\Editor\window_nodeEditor.cpp" />
+    <ClCompile Include="Engine\Editor\window_sceneList.cpp" />
+    <ClCompile Include="Engine\Editor\SettingsManager.cpp" />
+    <ClCompile Include="Engine\Editor\TextEditor\TextEditor.cpp" />
+    <ClCompile Include="Engine\Editor\window_sceneView.cpp" />
+    <ClCompile Include="Engine\Editor\window_textEditor.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\Game\Camera.cpp" />
+    <ClCompile Include="Engine\Game\Game.cpp" />
+    <ClCompile Include="Engine\Game\Keyboard.cpp" />
+    <ClCompile Include="Engine\Game\Object.cpp" />
+    <ClCompile Include="Engine\Game\Scene.cpp" />
+    <ClCompile Include="Engine\Game\SceneManager.cpp" />
+    <ClCompile Include="Engine\Graphics\ConvertColor.cpp" />
+    <ClCompile Include="Engine\Graphics\convertToImGuiFlags.cpp" />
+    <ClCompile Include="Engine\Graphics\GUI\HelpMarker.cpp" />
+    <ClCompile Include="Engine\Graphics\GUI\MenuItemImage.cpp" />
+    <ClCompile Include="Engine\Graphics\GUI\TreeNodeImage.cpp" />
+    <ClCompile Include="Engine\Graphics\ShaderManager.cpp" />
+    <ClCompile Include="Engine\Graphics\Texture.cpp" />
+    <ClCompile Include="Engine\Graphics\vertex.cpp" />
+    <ClCompile Include="Engine\Import.cpp" />
+    <ClCompile Include="Engine\Lua\json.cpp" />
+    <ClCompile Include="Engine\Lua\LuaLoad.cpp" />
+    <ClCompile Include="Engine\Lua\State.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="File\copyFileTo.cpp" />
+    <ClCompile Include="File\createNewFile.cpp" />
+    <ClCompile Include="File\dirExist.cpp" />
+    <ClCompile Include="File\fileExist.cpp" />
+    <ClCompile Include="File\getFileRoot.cpp" />
+    <ClCompile Include="File\getFilesList.cpp" />
+    <ClCompile Include="File\getFileStrings.cpp" />
+    <ClCompile Include="File\getFolderList.cpp" />
+    <ClCompile Include="File\getNameNum.cpp" />
+    <ClCompile Include="File\getRootPath.cpp" />
+    <ClCompile Include="File\newDirectory.cpp" />
+    <ClCompile Include="File\newFile.cpp" />
+    <ClCompile Include="File\noFileType.cpp" />
+    <ClCompile Include="File\getFileName.cpp" />
+    <ClCompile Include="File\openFileDialog.cpp" />
+    <ClCompile Include="File\getFileReplaceAll.cpp" />
+    <ClCompile Include="Func\cutBackNumber.cpp" />
+    <ClCompile Include="Func\getRandomNumber.cpp" />
+    <ClCompile Include="Func\isChar.cpp" />
+    <ClCompile Include="Func\joinStringVector.cpp" />
+    <ClCompile Include="Func\noSpaces.cpp" />
+    <ClCompile Include="Func\octHex.cpp" />
+    <ClCompile Include="Func\replaceAll.cpp" />
+    <ClCompile Include="Func\splitString.cpp" />
+    <ClCompile Include="Func\isInt.cpp" />
+    <ClCompile Include="Func\toLowerCase.cpp" />
+    <ClCompile Include="Func\toUpperCase.cpp" />
+    <ClCompile Include="Func\wideStringConvert.cpp" />
+    <ClCompile Include="Include\cJSON\cJSON.c" />
+    <ClCompile Include="Include\cJSON\cJSON_Utils.c" />
+    <ClCompile Include="Include\ImGUI\crude_json.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_canvas.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_impl_glfw.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_node_editor.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_node_editor_api.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_tables.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_TextEditor.cpp" />
+    <ClCompile Include="Include\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="Include\SOIL\image_DXT.c" />
+    <ClCompile Include="Include\SOIL\image_helper.c" />
+    <ClCompile Include="Include\SOIL\SOIL.c" />
+    <ClCompile Include="Include\SOIL\stb_image_aug.c" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Type\LuaParam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Console\Console.h" />
+    <ClInclude Include="Engine\Console\ConsoleStyle.h" />
+    <ClInclude Include="Engine\Console\ConsoleTime.h" />
+    <ClInclude Include="Engine\Console\Log.h" />
+    <ClInclude Include="Engine\Console\ScriptOutput.h" />
+    <ClInclude Include="Engine\Editor\Editor.h" />
+    <ClInclude Include="Engine\Editor\ImageEditor\ImageEditor.h" />
+    <ClInclude Include="Engine\Editor\NodeEditor\NodeEditor.h" />
+    <ClInclude Include="Engine\Editor\SettingManager.h" />
+    <ClInclude Include="Engine\Editor\TextEditor\TextEditor.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Game\Camera.h" />
+    <ClInclude Include="Engine\Game\Game.h" />
+    <ClInclude Include="Engine\Game\Keyboard.h" />
+    <ClInclude Include="Engine\Game\Object.h" />
+    <ClInclude Include="Engine\Game\Scene.h" />
+    <ClInclude Include="Engine\Game\SceneManager.h" />
+    <ClInclude Include="Engine\Graphics\ConvertColor.h" />
+    <ClInclude Include="Engine\Graphics\convertToImGuiFlags.h" />
+    <ClInclude Include="Engine\Graphics\FloatMacro.h" />
+    <ClInclude Include="Engine\Graphics\GUI\GUI.h" />
+    <ClInclude Include="Engine\Graphics\GUI\HelpMarker.h" />
+    <ClInclude Include="Engine\Graphics\GUI\MenuItemImage.h" />
+    <ClInclude Include="Engine\Graphics\GUI\TreeNodeImage.h" />
+    <ClInclude Include="Engine\Graphics\ShaderManager.h" />
+    <ClInclude Include="Engine\Graphics\Texture.h" />
+    <ClInclude Include="Engine\Graphics\vertex.h" />
+    <ClInclude Include="Engine\Import.h" />
+    <ClInclude Include="Engine\Lua\json.h" />
+    <ClInclude Include="Engine\Lua\LuaLoad.h" />
+    <ClInclude Include="Engine\Lua\LuaMacro.h" />
+    <ClInclude Include="Engine\Lua\State.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="File\copyFileTo.h" />
+    <ClInclude Include="File\createNewFile.h" />
+    <ClInclude Include="File\dirExist.h" />
+    <ClInclude Include="File\fileExist.h" />
+    <ClInclude Include="File\getFileRoot.h" />
+    <ClInclude Include="File\getFilesList.h" />
+    <ClInclude Include="File\getFileStrings.h" />
+    <ClInclude Include="File\getFolderList.h" />
+    <ClInclude Include="File\getNameNum.h" />
+    <ClInclude Include="File\getRootPath.h" />
+    <ClInclude Include="File\newDirectory.h" />
+    <ClInclude Include="File\newFile.h" />
+    <ClInclude Include="File\noFileType.h" />
+    <ClInclude Include="File\getFileName.h" />
+    <ClInclude Include="File\openFileDialog.h" />
+    <ClInclude Include="File\getFileReplaceAll.h" />
+    <ClInclude Include="Func\cutBackNumber.h" />
+    <ClInclude Include="Func\getRandomNumber.h" />
+    <ClInclude Include="Func\isChar.h" />
+    <ClInclude Include="Func\joinStringVector.h" />
+    <ClInclude Include="Func\noSpaces.h" />
+    <ClInclude Include="Func\octHex.h" />
+    <ClInclude Include="Func\replaceAll.h" />
+    <ClInclude Include="Func\splitString.h" />
+    <ClInclude Include="Func\isInt.h" />
+    <ClInclude Include="Func\toLowerCase.h" />
+    <ClInclude Include="Func\toUpperCase.h" />
+    <ClInclude Include="Func\wideStringConvert.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Type\LuaParam.h" />
+    <ClInclude Include="Type\mi.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lacuna Engine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Release\Lacuna Engine 256x256.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
